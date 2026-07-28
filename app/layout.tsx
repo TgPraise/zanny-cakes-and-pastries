@@ -1,12 +1,12 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Playfair_Display, Inter } from 'next/font/google'
+import { Cormorant_Garamond, Inter } from 'next/font/google'
 import './globals.css'
 
-export const playfair = Playfair_Display({
+export const playfair = Cormorant_Garamond({
   subsets: ['latin'],
   variable: '--font-playfair',
-  weight: ['400', '500', '600', '700', '800'],
+  weight: ['400', '500', '600', '700'],
 })
 
 export const inter = Inter({

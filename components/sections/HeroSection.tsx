@@ -60,7 +60,7 @@ export function HeroSection() {
                   size={20}
                 />
               </a>
-              <a href="#collections" className="px-8 py-3 border-2 border-zanny-red text-zanny-red font-serif font-semibold rounded-full hover:bg-zanny-red/5 transition-smooth">
+              <a href="#collections" className="px-8 py-3 border-2 border-zanny-red text-zanny-red font-serif font-semibold rounded-full hover:bg-zanny-red/5 transition-smooth flex items-center justify-center">
                 View Collections
               </a>
             </motion.div>
